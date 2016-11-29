@@ -7,6 +7,11 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('index', {path:'/'},function() {
+    this.route('milk', function() {
+      this.route('smusercalendar');
+    });
+  });
 });
 
 export default Router;

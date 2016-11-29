@@ -1,0 +1,6 @@
+{{#if params.isInline}}
+<div id={{calendarId}}> </div>
+{{else}}
+<label for={{calendarId}} required={{params.required}}> Enter Date</label>
+<input id={{calendarId}} type="text" size={{params.size}} aria-label={{label}} value={{displayDate}}>
+{{/if}}

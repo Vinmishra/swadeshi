@@ -1,0 +1,21 @@
+.sm-calendar{
+    left: 40%;
+    position: relative;
+	table{
+		td.consumed{	
+	 		background: #e60000;
+		    background-image: none;
+		    a{
+		    	background:none;
+		    }
+ 		}
+ 		td.changed-consumption{	
+	 		background: #FF5733;
+		    background-image: none;
+		    a{
+		    	background:none;
+		    }
+ 		}
+
+	}
+}
